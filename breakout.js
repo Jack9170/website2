@@ -4,6 +4,7 @@ closeBtn = document.getElementById('close-btn')
 canvas = document.getElementById('canvas')
 ctx = canvas.getContext('2d')
 
+
 score = 0
 
 brickRowCount = 9
@@ -25,8 +26,8 @@ paddle = {
     y: canvas.height - 20,
     w: 80,
     h: 10,
-    speed: 8,
-    dx: 0,
+    speed: 4,
+    dx: 4,
     dy: -4,
 }
 
@@ -135,6 +136,13 @@ function keyUp(e) {
 //keyboard event handlers
 document.addEventListener('keydown', keyDown)
 document.addEventListener('keyup', keyUp)
+
+function moveBall() {
+    ball.x = ball.x + ball.dx
+    ball.y = ball.y + ball.dy
+}
+
+
 // update canvas drawing and animation
 function update() {
     movePaddle()
