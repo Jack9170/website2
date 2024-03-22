@@ -99,6 +99,12 @@ function draw() {
 draw()
 
 
+function update() {
+
+    draw()
+    requestAnimationFrame(update)
+}
+
 // rules open and close event handlers
 rulesBtn.addEventListener('click', () => {
 
