@@ -96,7 +96,9 @@ function draw() {
     drawBricks()
 }
 
-draw()
+function movePaddle {
+
+}
 
 
 function update() {
@@ -104,6 +106,8 @@ function update() {
     draw()
     requestAnimationFrame(update)
 }
+
+update()
 
 // rules open and close event handlers
 rulesBtn.addEventListener('click', () => {
