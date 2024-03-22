@@ -100,7 +100,7 @@ draw()
 
 
 function update() {
-
+    movePaddle()
     draw()
     requestAnimationFrame(update)
 }
