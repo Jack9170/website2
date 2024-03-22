@@ -107,7 +107,7 @@ function movePaddle() {
         paddle.x = 0
     }
     if (paddle.x + paddle.w > canvas.width) {
-        paddle.x = canvas.width
+        paddle.x = canvas.width - paddle.w
     }
 }
 
