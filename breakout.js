@@ -27,6 +27,7 @@ paddle = {
     h: 10,
     speed: 8,
     dx: 0,
+    dy: -4,
 }
 
 //create brick properties
@@ -97,7 +98,7 @@ function draw() {
 }
 
 function movePaddle() {
-
+    paddle.x = paddle.x + paddle.dx
 }
 
 
