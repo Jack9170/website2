@@ -96,7 +96,7 @@ function draw() {
     drawBricks()
 }
 
-function movePaddle {
+function movePaddle() {
 
 }
 
