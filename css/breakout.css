@@ -17,14 +17,14 @@ body {
 }
 
 canvas{
-    background: #f0f0f0;
+    background: #41c464;
     display:block;
     border-radius: 5px;
 }
 
 h1{
     font-size:45px;
-    color: #6e6b53 ;
+    color: #41c464;
 }
 .btn{
     cursor: grab;
@@ -53,7 +53,7 @@ h1{
     top:0;
     left:0;
     background: #333333;
-    color:#ffffff;
+    color: #41c464;
     min-height:100vh;
     width:400px;
     padding:20px;
