@@ -71,7 +71,7 @@ function drawPaddle() {
 function drawScore() {
     ctx.font = '25px Comic Sans'
     ctx.fillStyle = '#F17105'
-    ctx.fillText(`Score: ${score}`, canvas.width-100, 30)
+    ctx.fillText(`👅Score: ${score}`, canvas.width-100, 30)
 }
 
 // Draw bricks on canvas
