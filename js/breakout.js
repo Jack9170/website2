@@ -181,10 +181,11 @@ bricks.forEach(column => {
             ) {
             ball.dy = -1 * ball.dy
             brick.visible = false
-        }
-    })
-})
+            }
+        })
 
+    })
+    
 // update canvas drawing and animation
 function update() {
     movePaddle()
