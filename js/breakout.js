@@ -70,7 +70,7 @@ function drawPaddle() {
 // Draw score on canvas
 function drawScore() {
     ctx.font = '25px Comic Sans'
-    ctx.fillStyle = '#F17105'
+    ctx.fillStyle = '#41c464'
     ctx.fillText(`Score: ${score}`, canvas.width-100, 30)
 }
 
@@ -80,7 +80,7 @@ function drawBricks() {
         column.forEach(brick => {
             ctx.beginPath()
             ctx.rect(brick.x,brick.y,brick.w,brick.h)
-            ctx.fillStyle = brick.visible ? '#032B43' : 'transparent';
+            ctx.fillStyle = brick.visible ? '#41c464' : 'transparent';
             ctx.fill()
             ctx.closePath()
         })

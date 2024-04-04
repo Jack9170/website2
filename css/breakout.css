@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(194,228,240);
+    background-color: #41c464;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,14 +17,14 @@ body {
 }
 
 canvas{
-    background: #41c464;
+    background-image: url(images.jpg);
     display:block;
     border-radius: 5px;
 }
 
 h1{
     font-size:45px;
-    color: #41c464;
+    color: brown;
 }
 .btn{
     cursor: grab;
