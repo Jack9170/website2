@@ -26,7 +26,7 @@ h1{
     color: #6e6b53 ;
 }
 .btn{
-    cursor:pointer;
+    cursor: grab;
     border:0;
     padding:10px 20px;
     background:black;
