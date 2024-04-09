@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #41c464;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,13 +17,13 @@ body {
 }
 
 canvas{
-    background-image: url(download.jpg);
+    background-image: url(images/download.jpg);
     display:block;
     border-radius: 5px;
 }
 
 h1{
-    font-size:125px;
+    font-size:50px;
     color: brown;
 }
 .btn{
@@ -52,7 +52,7 @@ h1{
     position:absolute;
     top:0;
     left:0;
-    background-image: url(download.jpg);
+    background-image: url(images/download.jpg);
     color: #41c464;
     min-height:100vh;
     width:400px;
