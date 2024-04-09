@@ -7,8 +7,7 @@
 body {
     background-color: #516dff;
     color: #ffffff;
-    font-family: "Press Start 2P",
-    system-ui;
+    font-family: "
     height: 100vh;
     overflow: hidden;
     text-align: center;
@@ -75,4 +74,15 @@ h1 {
     color: #ffffff;
     cursor: pointer;
     font-family: inherit;
+    width: 150px;
+    height: 150px;
+}
+
+.choose-insect-btn:hover {
+    background-color: #ffffff;
+    color: #516dff
+}
+
+choose-insect-btn:active {
+    background-color: rgba(255,255,255, 0.7);
 }
