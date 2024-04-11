@@ -22,11 +22,12 @@ body {
 
 .screen {
     height: 100vh;
-
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: margin 0.5s ease-in;
 }
 
 .btn {
@@ -121,6 +122,7 @@ h1 {
 
 
 .message.visible {
+    opacity: 1;
     transform: translate(-50%, 150%);
 }
 
