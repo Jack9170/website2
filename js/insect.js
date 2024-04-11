@@ -21,5 +21,13 @@ choose_insect_btns.forEach(btn => {
         screens [1].classList.add('up')
         selected_insect = {src, alt}
         setTimeout(createInsect, 1000)
+        startGame()
     })
 })
+
+
+function createInsect() {
+    const insect = document.createElement('div')
+    insect.classList.add('insect')
+    
+}
