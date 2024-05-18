@@ -183,7 +183,7 @@ function moveBall(){
         })
     })
 
-}
+} 
 
 
 //increase score
